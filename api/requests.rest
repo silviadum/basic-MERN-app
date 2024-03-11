@@ -1,0 +1,17 @@
+GET http://127.0.0.1:3001/todos
+
+###
+
+POST http://127.0.0.1:3001/todo/new
+Content-Type: application/json
+
+{
+    "text" : "skincare"
+}
+
+###
+DELETE http://127.0.0.1:3001/todo/delete/65d140598b514f4a84cd25c0
+
+###
+
+PUT http://127.0.0.1:3001/todo/complete/65d34eda8975ecf529cf910e
